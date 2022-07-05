@@ -1,0 +1,14 @@
+program ProjetoCalculadora;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  UnitCalculadora in 'UnitCalculadora.pas' {FormCalculadora};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TFormCalculadora, FormCalculadora);
+  Application.Run;
+end.

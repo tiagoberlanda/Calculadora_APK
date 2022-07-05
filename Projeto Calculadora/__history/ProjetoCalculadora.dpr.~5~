@@ -1,0 +1,18 @@
+program ProjetoCalculadora;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  UnitCalculadora in 'UnitCalculadora.pas' {FormCalculadora},
+  UDMDados in 'UDMDados.pas' {DMDados: TDataModule},
+  UnitFormHistorico in 'UnitFormHistorico.pas' {FormHistorico};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TDMDados, DMDados);
+  Application.CreateForm(TFormCalculadora, FormCalculadora);
+  Application.CreateForm(TFormHistorico, FormHistorico);
+  Application.Run;
+end.
