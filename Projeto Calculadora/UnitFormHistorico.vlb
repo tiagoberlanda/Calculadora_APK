@@ -1,0 +1,26 @@
+﻿[]
+Coordinates=176,78,116,58
+Visible=True
+
+[DMDados.Query_Listar_Dados]
+Coordinates=695,100,165,33
+
+[Module Settings]
+ModelLayerNames=
+ActiveLayerNames=
+EditingLayerName=
+
+[Memo1]
+Coordinates=0,0,57,58
+Visible=True
+
+[Image_C]
+Coordinates=57,77,66,58
+
+[Image_menu_historico]
+Coordinates=331,1,89,58
+
+[Layout_superior]
+Coordinates=195,155,60,36
+Visible=True
+
